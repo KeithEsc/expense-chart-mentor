@@ -10,7 +10,6 @@ import {
   Legend,
   ChartOptions,
   TooltipItem,
-  TooltipModel,
 } from "chart.js";
 import data from "./data.json";
 
