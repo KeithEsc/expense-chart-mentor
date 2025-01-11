@@ -1,0 +1,16 @@
+#root {
+  margin: 0 auto;
+
+  padding-inline: 1rem;
+}
+
+.chart {
+  max-height: 50%;
+  margin: 20px auto;
+
+  display: flex;
+}
+
+canvas {
+  max-height: 50%;
+}

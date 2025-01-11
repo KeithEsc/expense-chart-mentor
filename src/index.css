@@ -1,0 +1,127 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --soft-red: hsl(10, 79%, 65%);
+  --cyan: hsl(186, 34%, 60%);
+  --dark-brown: hsl(25, 47%, 15%);
+  --medium-brown: hsl(28, 10%, 53%);
+  --cream: hsl(27, 66%, 92%);
+  --very-pale-orange: hsl(33, 100%, 98%);
+
+  font-family: "DM Sans", serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: var(--cream);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-height: 100vh;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsl(10, 79%, 65%);
+  padding: 1.5rem;
+  min-width: 33rem;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+.top-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  font-size: 14px;
+  margin: 0;
+}
+
+.amount {
+  font-size: 24px;
+  margin: 0;
+  font-weight: 700;
+}
+
+.logo {
+  height: 100%;
+  object-fit: contain;
+}
+
+.bottom {
+  background-color: var(--very-pale-orange);
+  border-radius: 1rem;
+  color: black;
+  padding: 1.5rem;
+  height: 30rem;
+}
+.bottom-text_top {
+  font-weight: 700;
+  font-size: 2rem;
+  max-width: 94%;
+  margin: 0 auto;
+}
+.line {
+  width: 94%;
+  margin: 0 auto;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.127);
+  margin-bottom: 2rem;
+}
+.bottom-text {
+  display: flex;
+  flex-direction: row;
+  max-width: 94%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.bottom-text_left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.total {
+  font-size: 18px;
+  color: var(--medium-brown);
+}
+.total-amount {
+  font-weight: 700;
+  font-size: 3rem;
+  color: var(--dark-brown);
+}
+.bottom-text_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-bottom: 0.75rem;
+}
+.percent {
+  font-size: 18px;
+  color: var(--dark-brown);
+  font-weight: 700;
+  text-align: right;
+}
+.percent-from {
+  font-size: 18px;
+  color: var(--medium-brown);
+}
