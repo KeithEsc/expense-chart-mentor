@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://expense-chart-mentor.vercel.app/)
+- Live Site URL: [https://expense-chart-mentor.vercel.app/](https://expense-chart-mentor.vercel.app/)
 
 ## My process
 
